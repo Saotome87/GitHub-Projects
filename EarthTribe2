@@ -1,1 +1,143 @@
+<head>
+    <title> EarthTribe </title>
+    <link rel="stylesheet" href="Earthtribe2.css"
+    <meta name="EarthTribe-viewport" content="width=device-width, intial-scale=1.0">
+</head>
+  
+<body>
+<div id="Big-Container">
+  <div id="C1">
+    <div id="C1-B1">
+      <p class="C1-Header">
+        Saving our planet together, one challenge at a time.
+      </p>      
+      <p class="C1-Header-text">
+        Taking the lead to preserve, protect and heal nature, beings together under one Tribe.
+      </p>
+      <button type="submit" class="buttons"> Learn More </button>
+    </div> <!-- Header-Box1 end -->
+    <div id="C1-B2">
+      <div id="dropdownfield">
+        <label for="dropdown">Challenges</label>
+          <select id="dropdownselect" name="dropdown">
+            <option value="Nature"></option>
+            <option value="Plastic"></option>
+            <option value="Solar"></option>
+          </select>
+      </div>
+      <div id="Join-button">
+        <button type="submit" class="buttons">Join</button>
+      </div>
+      <div id="C1-B2-Graphic">
+      </div>
+    </div>      
+  </div> <!-- C1 div closing tag -->
+  
+    <br><br><br>
 
+  <div id="C2">
+    <div id="C2-B1">
+      <p class="P1"> Join the global Earth Tribe community </p>
+      <p class="P2"> Explore a series of exciting environmental Challenges to earn your recognition and become a member of the Earth Tribe! </p>
+    </div>
+    
+    <div id="C2-B2">
+      <div class="C2-B2-P">
+        <div class="C2-B2-P-Graphic">
+          <div class="C2-B2-P-Graphic-Whitebox">            
+          </div>
+        </div>
+        <div class="C2-B2-P-text" id="ChampionofNature"> <!-- Named id in attempt to make tie an anchor element to dropdown option-->
+          <p class="P3"> Champions for Nature Challenge <p style="font-size: 15px;">Become a champion for nature and biodiversity by developing sustainable habits for an eco-friendly and healthy lifestyle.</p>
+        </div>
+        <div class="C2-B2-circles">
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="C2-B2-P-button">
+        <button type="submit" class="buttons">Become a champion for nature</button>             </div>
+      </div> <!-- Panel 1 closing tag -->
+      
+      <div class="C2-B2-P">
+        <div class="C2-B2-P-Graphic">
+          <div class="C2-B2-P-Graphic-Whitebox"></div>
+        </div>
+        <div class="C2-B2-P-text">
+          <p class="P3"> Tide Turners Plastic Challenge<p style="font-size: 15px;">Build healhier and more resilient oceans, lakes and lands by understanding how pollution affects every corner of the world.</p>
+        </div>
+          <div class="C2-B2-circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="C2-B2-P-button">
+        <button type="submit" class="buttons">Turn the tide on pollution</button></div>
+      </div> <!-- Panel 2 closing tag -->
+        
+      <div class="C2-B2-P">
+        <div class="C2-B2-P-Graphic">
+          <div class="C2-B2-P-Graphic-Whitebox"></div>
+        </div>
+        <div class="C2-B2-P-text">
+        <p class="P3"> Scouts Go Solar Challenge</p>
+          <p style="font-size: 15px;">Discover the power of the sun and learn about how evergy and the climate are interconnected.</p>
+        </div>
+           <div class="C2-B2-circles">
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+              <div class="circle"></div>
+           </div>
+        <div class="C2-B2-P-button">
+        <button type="submit" class="buttons">Become a solar advocate</button></div>
+        </div> <!-- Panel 3 closing tag -->
+      
+    </div> <!-- C2-B2 closing tag -->
+  </div> <!-- Container2 div closing tag -->
+    
+
+  <div id="C3">
+    <div id="C3-B1">
+      <div class="Graphic-on-bottom">
+      </div>
+      <div class="Text-on-bottom">
+        <p class="P1">
+        Join a global youth movement for the environment!    
+        </p>
+        <p class="P2"> 
+        Our world is changing at a remarkable pace. The essence of all life on Earth, Nature, is under enormous threat. We are experiencing the impacts of climate change, reliance on fossil fuels, rising consumption habits, and a loss of natural habitat and species.
+        <br><br>
+        The Earth Tribe unites young people in a global movement to become champions for preserving and protecting our planet.
+        </p>
+      </div>
+    </div>
+    <div id="C3-B2">
+      <div class="Graphic-on-bottom">
+      </div>
+      <div class="Text-on-bottom">
+        <p class="P1">
+            A tribe that enables you to protect and heal our planet
+        </p>
+
+        <p class="P2">Through the Earth Tribe, you will understand your own personal impact on the environment, learn how to take action in your community to improve the health of the planet, and participate in a series of exciting environmental challenges.
+            <br><br>
+            The Earth Tribe is your personal educational journey for environmental change - a global community of friends who share your passion and vision to create a better world!
+        </p>
+        <div id="Quiz-challenge">
+            <button class="buttons">Take the Earth Tribe Quiz-challenge
+            </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- C3 Closing tag -->
+</div> <!-- Big-Container closing tag-->
+    
+</body>
+
+  
