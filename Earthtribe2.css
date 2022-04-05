@@ -1,0 +1,195 @@
+.C1-Header {
+  font-size: 42px; /* FONT SIZING EM VS PX VS VW */
+  font-weight: bold;  
+  }
+
+  .C1-Header-text {
+    font-size: 24px;
+    }
+  
+.P1 {
+  font-size: 40px; /* WHY DOES THIS NOT ALIGN WITH C1 FONT-SIZES */
+  }
+  
+.P2 {
+  font-size: 40px;
+  }
+
+.P3 {
+  font-size: 20px;
+  }
+
+.buttons {
+  border-radius: .25em;
+  font-size: .7em;
+  padding: .5em 1em;
+  background-color: black;
+  color: white;
+  }
+
+#Big-Container {
+      max-width: 100%;
+      min-width: 100%;      
+      height: auto;
+      background-color: rgb(179, 255, 185);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+      
+  
+  #C1 {
+    box-sizing: border-box;
+    max-width: 50rem;
+    min-width: 50rem;
+    height: 26rem; /* THIS UNIT MAKE SENSE? VS EM VS PX */
+    background-color: #cad3c5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 4rem;
+
+  }
+  
+    #C1-B1 { /* Having trouble lessening the gap between C1-Header & C1-Header-text without using more divs */
+    max-width: 50%;
+    min-width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+         
+    }
+  
+    #C1-B2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+
+      #dropdownfield {
+      font-weight: bold;
+      position: relative;
+      right: 30%;      
+      align-self: flex-end;   
+      }
+
+      #Join-button {
+      align-self: flex-end;
+      position: relative;
+      }
+    
+      #C1-B2-Graphic {
+      width: 25vw;   /* VERY DIFFERENT OUT COME IN 10vh  vs   10em  (what is REM?) */
+      height: 26vw;
+      border-radius: .25em;
+      background-color: #831570;
+      }
+
+  /*  C2 Div OPENING */
+  
+  #C2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 65%;
+    min-width: 65%;
+    height: auto;
+    
+    background-color: #f3f5f2;    
+    }
+  
+    #C2-B1 {
+      max-width: 100%;
+      height: auto;
+      }
+  
+    #C2-B2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    .C2-B2-P {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; /* HOW DO I SET THESE PROPERTIES SO THAT BUTTON IS FLUSH WITH BASELINE, CAN IT BE DONE WITHOUT CUSTOMIZING MORE BUTTON CODE?? */
+      }
+
+    .C2-B2-P-Graphic {
+      width: 95%;
+      height: 8.2em;
+      background-color: #a2a7b0;
+      border-radius: .25em;
+      }
+
+    .C2-B2-P-Graphic-Whitebox {
+      width: 3em;
+      height: 3em;
+      background-color: white;
+      border-radius: 5px;
+      position: relative;
+      top: 1em;
+      left: 1em;
+      }
+
+    .C2-B2-circles {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      max-width: 56%; 
+      
+      }
+
+      .circle {
+        height: 2em;
+        width: 2em;
+        background-color: #bbb;
+        border-radius: 50%;        
+        }
+
+    .C2-B2-P-button {
+      padding-top: 18px;
+      margin-top: auto;
+      /* justify-self: flex-end;    WHY DOESNT THIS WORK? IS JUSTIFY-SELF A VALID PROPERTY IN CSS?? HOW DO I GET THESE BUTTONS TO ALL SIT FLUSH ON THE BOTTOM OF THEIR RESPECTIVE CONTAINER??*/
+      }
+  
+  #C3 {
+      box-sizing: border-box;
+      margin-top: 6em;     
+      min-width: 80%; /* WHY DOES IT SHRINK COMPARED TO C2 IF I USE value of 880?? */
+      max-width: 80%;
+      height: auto;
+      display: flex;
+      flex-direction: column;     
+      }
+
+    #C3-B1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: #f3f5f2;
+        }
+
+
+    #C3-B2 {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      background-color: #f3f5f2;
+      margin-top: 5em;
+      }
+
+    .Graphic-on-bottom {
+      width: 22em;
+      height: 22em;
+      border-radius: .25em;
+      background-color: #a2a7b0;
+      }
+
+    .Text-on-bottom {
+      max-width: 50%;
+      }
